@@ -1,6 +1,7 @@
 "use client";
 
-import { Shield } from "lucide-react";
+import Image from "next/image";
+
 
 export default function Footer() {
   const handleScrollTo = (id: string) => {
@@ -24,11 +25,18 @@ export default function Footer() {
           {/* Logo & Description */}
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-              <div className="bg-[#0B1F3A] p-2 rounded-lg text-white flex items-center justify-center mr-3">
-                <Shield className="h-5 w-5" />
+              <div className="mr-3 flex-shrink-0">
+                <Image
+                  src="/logo.png"
+                  alt="FinScope Logo"
+                  width={32}
+                  height={32}
+                  className="object-contain"
+                />
               </div>
-              <span className="text-xl font-bold text-[#0B1F3A] tracking-tight">
-                FinScope<span className="text-emerald-600">.</span>
+              <span className="text-xl font-montserrat font-extrabold tracking-tight">
+                <span className="text-[#0B1F3A]">FIN</span>
+                <span className="text-emerald-600">SCOPE</span>
               </span>
             </div>
             <p className="text-xs text-slate-500 max-w-sm leading-relaxed">

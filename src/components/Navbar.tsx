@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X, Shield } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,11 +47,19 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-            <div className="bg-emerald-600 p-2 rounded-lg text-white flex items-center justify-center mr-3 shadow-md shadow-emerald-600/10">
-              <Shield className="h-5 w-5" />
+            <div className="mr-3 flex-shrink-0">
+              <Image
+                src="/logo.png"
+                alt="FinScope Logo"
+                width={36}
+                height={36}
+                priority
+                className="object-contain"
+              />
             </div>
-            <span className="text-2xl font-bold text-[#0B1F3A] tracking-tight">
-              FinScope<span className="text-emerald-600">.</span>
+            <span className="text-2xl font-montserrat font-extrabold tracking-tight">
+              <span className="text-[#0B1F3A]">FIN</span>
+              <span className="text-emerald-600">SCOPE</span>
             </span>
           </div>
 

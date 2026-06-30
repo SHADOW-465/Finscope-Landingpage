@@ -1,10 +1,16 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["700", "800", "900"],
+  variable: "--font-montserrat",
 });
 
 export const viewport: Viewport = {
@@ -33,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} font-sans h-full scroll-smooth`}>
+    <html lang="en" className={`${inter.variable} ${montserrat.variable} font-sans h-full scroll-smooth`}>
       <body className="min-h-full bg-white text-slate-700 antialiased flex flex-col">
         {children}
       </body>
