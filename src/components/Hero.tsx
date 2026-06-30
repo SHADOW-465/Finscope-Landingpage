@@ -284,7 +284,7 @@ export default function Hero() {
                 <div className="col-span-2 bg-[#F0FDF4] border border-emerald-100 rounded-xl p-4">
                   <div className="flex items-center space-x-1.5 text-emerald-800 text-xs font-bold uppercase tracking-wider mb-2">
                     <Sparkles className="h-3.5 w-3.5 text-emerald-600" />
-                    <span>FinScope AI underwriting Insights</span>
+                    <span>Credalyzer AI underwriting Insights</span>
                   </div>
                   <p className="text-xs text-slate-700 leading-relaxed">
                     "Consistent monthly credits of <strong className="text-[#0B1F3A]">$42.5k</strong>. Primary income stems from regular commercial client payments. 2 auto-detected EMIs total <strong className="text-[#0B1F3A]">$770/mo</strong>. The single bounced cheque in May was resolved in 24 hours, posing minimal default risk."

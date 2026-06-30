@@ -28,19 +28,19 @@ export default function Footer() {
               <div className="mr-3 flex-shrink-0">
                 <Image
                   src="/logo.png"
-                  alt="FinScope Logo"
+                  alt="Credalyzer Logo"
                   width={32}
                   height={32}
                   className="object-contain"
                 />
               </div>
               <span className="text-xl font-montserrat font-extrabold tracking-tight">
-                <span className="text-[#0B1F3A]">FIN</span>
-                <span className="text-emerald-600">SCOPE</span>
+                <span className="text-[#0B1F3A]">CRED</span>
+                <span className="text-emerald-600">ALYZER</span>
               </span>
             </div>
             <p className="text-xs text-slate-500 max-w-sm leading-relaxed">
-              FinScope is an enterprise-grade financial intelligence engine. We automate statement parsing, transaction analysis, and credit underwriting for modern lending teams worldwide.
+              Credalyzer is an enterprise-grade financial intelligence engine. We automate statement parsing, transaction analysis, and credit underwriting for modern lending teams worldwide.
             </p>
           </div>
 
@@ -112,7 +112,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 font-semibold gap-4">
-          <p>© {new Date().getFullYear()} FinScope Inc. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Credalyzer Inc. All rights reserved.</p>
           <div className="flex space-x-6">
             <span>SOC 2 Type II Certified</span>
             <span>GDPR Compliant</span>

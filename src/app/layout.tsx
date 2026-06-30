@@ -19,7 +19,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "FinScope | AI-Powered Financial Intelligence Platform",
+  title: "Credalyzer | AI-Powered Financial Intelligence Platform",
   description:
     "Turn 50 pages of bank statements into one clear credit decision in under a minute. Automatically identify income patterns, cheque bounces, active loans, and generate a professional underwriting report.",
   keywords: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "NBFC credit analysis",
     "automated credit decision",
   ],
-  authors: [{ name: "FinScope Team" }],
+  authors: [{ name: "Credalyzer Team" }],
 };
 
 export default function RootLayout({

@@ -27,7 +27,7 @@ const benefits = [
   },
   {
     title: "Reduce Manual Errors",
-    description: "Eliminate spreadsheet typos, copy-paste blunders, and missed transactions. FinScope ensures machine-accurate parser outputs.",
+    description: "Eliminate spreadsheet typos, copy-paste blunders, and missed transactions. Credalyzer ensures machine-accurate parser outputs.",
     icon: ShieldAlert,
     metric: "Zero transcription errors",
   },
@@ -57,7 +57,7 @@ const benefits = [
   },
 ];
 
-export default function WhyFinscope() {
+export default function WhyCredalyzer() {
   return (
     <section className="py-24 bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -66,10 +66,10 @@ export default function WhyFinscope() {
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-xs font-bold text-emerald-600 uppercase tracking-widest mb-3">Core Outcomes</h2>
           <h3 className="text-3xl sm:text-4xl font-extrabold text-[#0B1F3A] tracking-tight">
-            Why Teams Choose FinScope
+            Why Teams Choose Credalyzer
           </h3>
           <p className="text-base text-slate-500 mt-4 leading-relaxed">
-            Move away from manual spreadsheet entry. FinScope delivers immediate, measurable bottom-line efficiency gains for credit operations.
+            Move away from manual spreadsheet entry. Credalyzer delivers immediate, measurable bottom-line efficiency gains for credit operations.
           </p>
         </div>
 

@@ -15,7 +15,7 @@ export default function Problem() {
             Still Reviewing Bank Statements Manually?
           </h3>
           <p className="text-base text-slate-500 mt-4 leading-relaxed">
-            Manual statement verification is slow, error-prone, and scales linearly with headcount. Compare the traditional workflow against FinScope's automated underwriting engine.
+            Manual statement verification is slow, error-prone, and scales linearly with headcount. Compare the traditional workflow against Credalyzer's automated underwriting engine.
           </p>
         </div>
 
@@ -101,7 +101,7 @@ export default function Problem() {
             </div>
           </motion.div>
 
-          {/* FinScope Card */}
+          {/* Credalyzer Card */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -114,7 +114,7 @@ export default function Problem() {
             
             <div>
               <div className="flex items-center justify-between mb-6">
-                <span className="text-sm font-bold text-emerald-400 uppercase tracking-wider">With FinScope AI</span>
+                <span className="text-sm font-bold text-emerald-400 uppercase tracking-wider">With Credalyzer AI</span>
                 <span className="text-xs font-semibold text-emerald-300 bg-emerald-950/80 px-2.5 py-1 rounded-md border border-emerald-800/40">
                   Instant & Reliable
                 </span>

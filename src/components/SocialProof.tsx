@@ -37,7 +37,7 @@ const targetAudiences = [
   {
     title: "Credit Analysts",
     role: "Eliminate Manual Grunt Work",
-    description: "Skip manual transaction extraction and Excel macro sorting. FinScope structures and categorizes bank data so you focus on decisioning.",
+    description: "Skip manual transaction extraction and Excel macro sorting. Credalyzer structures and categorizes bank data so you focus on decisioning.",
     metric: "Save 3 hrs per file",
     icon: FileCheck,
     color: "bg-amber-50 text-amber-700 border-amber-100",
@@ -64,7 +64,7 @@ export default function SocialProof() {
             Built for Modern Lending Teams
           </h3>
           <p className="text-base text-slate-500 mt-4 leading-relaxed">
-            FinScope is engineered specifically for operations requiring rapid, accurate, and structured underwriting insights from bank statements.
+            Credalyzer is engineered specifically for operations requiring rapid, accurate, and structured underwriting insights from bank statements.
           </p>
         </div>
 
@@ -121,7 +121,7 @@ export default function SocialProof() {
             <div>
               <h4 className="text-lg font-bold tracking-tight mb-2">Need a custom deployment?</h4>
               <p className="text-sm text-slate-300 leading-relaxed">
-                Whether you need dedicated servers, local bank API integrations, or customized credit report schemas, our team can tailor FinScope to your lending workflows.
+                Whether you need dedicated servers, local bank API integrations, or customized credit report schemas, our team can tailor Credalyzer to your lending workflows.
               </p>
             </div>
             <button 

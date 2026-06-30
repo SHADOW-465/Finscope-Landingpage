@@ -75,7 +75,7 @@ export default function Features() {
             Underwriting Powered by Deep Financial AI
           </h3>
           <p className="text-base text-slate-500 mt-4 leading-relaxed">
-            FinScope structures raw transaction data into standard underwriting indicators in under a minute, replacing manual reading.
+            Credalyzer structures raw transaction data into standard underwriting indicators in under a minute, replacing manual reading.
           </p>
         </div>
 

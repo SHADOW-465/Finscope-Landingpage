@@ -15,9 +15,9 @@ export default function ReportPreview() {
   const handleDownload = () => {
     // Generate a simple text blob as a placeholder for the PDF download
     const reportText = `
-FINSCOPE CONFIDENTIAL CREDIT UNDERWRITING REPORT
+CREDALYZER CONFIDENTIAL CREDIT UNDERWRITING REPORT
 ================================================
-Report ID: FSC-2026-9901
+Report ID: CRD-2026-9901
 Target Entity: Vanguard Trading LLC
 Generated: June 30, 2026
 Underwriting Grade: AAA (Low Risk)
@@ -52,7 +52,7 @@ APPROVED (Low Risk Grade AAA). We recommend a maximum exposure limit of $150,000
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "FinScope_Underwriting_Sample_Report.txt";
+    link.download = "Credalyzer_Underwriting_Sample_Report.txt";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -105,12 +105,12 @@ APPROVED (Low Risk Grade AAA). We recommend a maximum exposure limit of $150,000
               {/* Document Header */}
               <div className="flex justify-between items-start border-b-2 border-[#0B1F3A] pb-6 mb-8">
                 <div>
-                  <h4 className="text-2xl font-black text-[#0B1F3A] tracking-tight">FinScope Analytics</h4>
+                  <h4 className="text-2xl font-black text-[#0B1F3A] tracking-tight">Credalyzer Analytics</h4>
                   <p className="text-[10px] text-slate-500 font-bold uppercase tracking-widest mt-0.5">Automated Risk & Credit Engine</p>
                 </div>
                 <div className="text-right text-xs">
                   <p className="font-bold text-[#0B1F3A]">CONFIDENTIAL CREDIT BRIEF</p>
-                  <p className="text-[10px] text-slate-400 mt-1">REPORT ID: FSC-2026-9901</p>
+                  <p className="text-[10px] text-slate-400 mt-1">REPORT ID: CRD-2026-9901</p>
                   <p className="text-[10px] text-slate-400">DATE GENERATED: June 30, 2026</p>
                 </div>
               </div>

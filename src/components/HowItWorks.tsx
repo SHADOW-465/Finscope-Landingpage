@@ -7,14 +7,14 @@ const steps = [
   {
     step: "01",
     title: "Upload Statement PDF",
-    description: "Upload your customer's bank statement PDF. FinScope handles multi-page scans, digital bank exports, and varying file sizes seamlessly.",
+    description: "Upload your customer's bank statement PDF. Credalyzer handles multi-page scans, digital bank exports, and varying file sizes seamlessly.",
     icon: UploadCloud,
     badge: "Drag & Drop",
   },
   {
     step: "02",
     title: "AI Extraction",
-    description: "FinScope reads every narration line, transaction date, credit/debit amount, and running balance. Standardizes text and formats.",
+    description: "Credalyzer reads every narration line, transaction date, credit/debit amount, and running balance. Standardizes text and formats.",
     icon: Database,
     badge: "99.8% Accurate",
   },

@@ -49,7 +49,7 @@ export default function DashboardShowcase() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-xs font-bold text-emerald-600 uppercase tracking-widest mb-3">Interactive Demo</h2>
           <h3 className="text-3xl sm:text-4xl font-extrabold text-[#0B1F3A] tracking-tight">
-            Explore the FinScope Interface
+            Explore the Credalyzer Interface
           </h3>
           <p className="text-base text-slate-500 mt-4 leading-relaxed">
             Click through the dashboard views below to see how raw transaction streams are categorized and analyzed for underwriting.
@@ -309,7 +309,7 @@ export default function DashboardShowcase() {
                             <span className="text-xs font-bold text-emerald-600">LOW RISK RATING</span>
                           </div>
                           <p className="text-xs text-slate-500 mt-2 leading-relaxed">
-                            FinScope's machine learning model weights bounced cheques against average balance history. Since the balance immediately recovered, default risk remains highly favorable.
+                            Credalyzer's machine learning model weights bounced cheques against average balance history. Since the balance immediately recovered, default risk remains highly favorable.
                           </p>
                         </div>
                         
@@ -410,7 +410,7 @@ export default function DashboardShowcase() {
                     <div className="border border-slate-200 rounded-xl p-5 bg-[#F8FAFC] text-xs text-slate-600">
                       <h5 className="font-bold text-[#0B1F3A] mb-2 uppercase">Anti-Fraud Log</h5>
                       <p>
-                        FinScope cross-references narration names against known shelf shell company registries. All suppliers mapped back to active corporate listings in good standing. Balance sheet progression matches statement transaction progression.
+                        Credalyzer cross-references narration names against known shelf shell company registries. All suppliers mapped back to active corporate listings in good standing. Balance sheet progression matches statement transaction progression.
                       </p>
                     </div>
                   </div>
@@ -435,7 +435,7 @@ export default function DashboardShowcase() {
                           {chatLoading ? (
                             <div className="flex items-center space-x-2 text-slate-400 text-xs font-semibold">
                               <RefreshCw className="h-3.5 w-3.5 animate-spin" />
-                              <span>FinScope is analyzing statement lines...</span>
+                              <span>Credalyzer is analyzing statement lines...</span>
                             </div>
                           ) : (
                             chatAnswer && (

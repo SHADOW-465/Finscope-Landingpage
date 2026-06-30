@@ -80,7 +80,7 @@ export default function ContactForm() {
             </h3>
             
             <p className="text-base text-slate-600 leading-relaxed mb-8">
-              Book a personalized demo and experience how FinScope transforms manual statement verification into structured financial intelligence.
+              Book a personalized demo and experience how Credalyzer transforms manual statement verification into structured financial intelligence.
             </p>
 
             {/* Value Checkpoints */}

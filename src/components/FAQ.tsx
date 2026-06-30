@@ -6,8 +6,8 @@ import { Plus, Minus, HelpCircle } from "lucide-react";
 
 const faqs = [
   {
-    question: "Does FinScope replace credit analysts?",
-    answer: "No. FinScope is designed to assist credit analysts, not replace them. It automates the tedious, manual extraction of transactions and calculates basic ratios. This frees up your underwriting team to focus on high-value, subjective decisioning and fraud reviews rather than manual data entry.",
+    question: "Does Credalyzer replace credit analysts?",
+    answer: "No. Credalyzer is designed to assist credit analysts, not replace them. It automates the tedious, manual extraction of transactions and calculates basic ratios. This frees up your underwriting team to focus on high-value, subjective decisioning and fraud reviews rather than manual data entry.",
   },
   {
     question: "How long does analysis take?",
@@ -45,7 +45,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h3>
           <p className="text-sm text-slate-500 mt-3">
-            Got questions about FinScope security, speed, or team workflows? We have answers.
+            Got questions about Credalyzer security, speed, or team workflows? We have answers.
           </p>
         </div>
 

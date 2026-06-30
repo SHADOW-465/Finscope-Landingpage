@@ -50,7 +50,7 @@ export default function Navbar() {
             <div className="mr-3 flex-shrink-0">
               <Image
                 src="/logo.png"
-                alt="FinScope Logo"
+                alt="Credalyzer Logo"
                 width={36}
                 height={36}
                 priority
@@ -58,8 +58,8 @@ export default function Navbar() {
               />
             </div>
             <span className="text-2xl font-montserrat font-extrabold tracking-tight">
-              <span className="text-[#0B1F3A]">FIN</span>
-              <span className="text-emerald-600">SCOPE</span>
+              <span className="text-[#0B1F3A]">CRED</span>
+              <span className="text-emerald-600">ALYZER</span>
             </span>
           </div>
 

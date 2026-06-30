@@ -5,7 +5,7 @@ import Problem from "@/components/Problem";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import DashboardShowcase from "@/components/DashboardShowcase";
-import WhyFinscope from "@/components/WhyFinscope";
+import WhyCredalyzer from "@/components/WhyCredalyzer";
 import ReportPreview from "@/components/ReportPreview";
 import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
@@ -22,7 +22,7 @@ export default function Home() {
         <Features />
         <HowItWorks />
         <DashboardShowcase />
-        <WhyFinscope />
+        <WhyCredalyzer />
         <ReportPreview />
         <FAQ />
         <ContactForm />
